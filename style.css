@@ -1,0 +1,53 @@
+:root {
+    --primary-color: #2c3e50; /* A deep, modern blue */
+    --secondary-color: #3498db; /* A brighter, friendly blue for accents */
+    --text-color: #34495e; /* A softer, more readable dark grey */
+    --bg-color: #ecf0f1; /* A very light grey background */
+    --card-bg: #ffffff;
+}
+
+html, body {
+    height: 100%;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    font-family: 'Poppins', sans-serif;
+    background-color: var(--bg-color);
+    color: var(--text-color);
+    padding-top: 70px; /* For the fixed navbar */
+}
+
+.navbar {
+    box-shadow: 0 2px 4px rgba(0,0,0,0.04);
+}
+
+.navbar-brand {
+    font-weight: 600;
+    color: var(--primary-color) !important;
+}
+
+.nav-link {
+    font-weight: 400;
+    color: var(--text-color) !important;
+    transition: color 0.3s ease;
+}
+
+.nav-link:hover, .nav-link.active {
+    color: var(--secondary-color) !important;
+    font-weight: 600;
+}
+
+.content-wrapper {
+    background-color: var(--card-bg);
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+}
+
+.display-5 {
+    color: var(--primary-color);
+}
+
+.footer {
+    background-color: var(--card-bg);
+}
