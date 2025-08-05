@@ -1,53 +1,63 @@
-:root {
-    --primary-color: #2c3e50; /* A deep, modern blue */
-    --secondary-color: #3498db; /* A brighter, friendly blue for accents */
-    --text-color: #34495e; /* A softer, more readable dark grey */
-    --bg-color: #ecf0f1; /* A very light grey background */
-    --card-bg: #ffffff;
-}
-
-html, body {
-    height: 100%;
-}
-
 body {
-    display: flex;
-    flex-direction: column;
-    font-family: 'Poppins', sans-serif;
-    background-color: var(--bg-color);
-    color: var(--text-color);
-    padding-top: 70px; /* For the fixed navbar */
+    font-family: 'Rubik', sans-serif;
+    color: #4a4a4a;
+    background-color: #f8f9fa;
+    padding-top: 80px;
 }
 
-.navbar {
-    box-shadow: 0 2px 4px rgba(0,0,0,0.04);
+.header-area .navbar {
+    padding: 1rem 0;
 }
 
-.navbar-brand {
-    font-weight: 600;
-    color: var(--primary-color) !important;
+.navbar-brand img {
+    height: 60px;
 }
 
 .nav-link {
-    font-weight: 400;
-    color: var(--text-color) !important;
-    transition: color 0.3s ease;
+    font-weight: 500;
+    color: #333 !important;
+    text-transform: uppercase;
+    margin-left: 15px;
+    margin-right: 15px;
 }
 
-.nav-link:hover, .nav-link.active {
-    color: var(--secondary-color) !important;
-    font-weight: 600;
+.nav-link:hover,
+.nav-link.active {
+    color: #007bff !important;
+}
+
+.banner-area {
+    height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.6);
+}
+
+.banner-content h2 {
+    font-size: 3rem;
+    font-weight: 700;
 }
 
 .content-wrapper {
-    background-color: var(--card-bg);
-    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+    background-color: #ffffff;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08);
+    border-radius: 8px;
+    padding: 2rem;
 }
 
 .display-5 {
-    color: var(--primary-color);
+    font-family: 'Roboto Slab', serif;
+    color: #333;
 }
 
 .footer {
-    background-color: var(--card-bg);
+    background-color: #343a40;
+    color: white;
+    padding: 2rem 0;
+}
+
+.footer .text-muted {
+    color: #adb5bd !important;
 }
