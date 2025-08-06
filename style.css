@@ -158,11 +158,11 @@ body {
     .site-content {
         padding: 1.5rem;
     }
-    .site-content .display-5 {
-        font-size: 2rem;
+    .site-content .display-6 {
+        font-size: 1.6rem;
     }
     .site-content p {
-        font-size: 0.9rem;
+        font-size: 0.88rem;
     }
     .sidebar .widget {
         padding: 1rem;
@@ -236,6 +236,8 @@ body {
     }
 
     .footer-social-icons i {
-        font-size: 2rem;
+        margin-left: 2rem;
+        margin-right: 2rem;
+        font-size: 1.4rem;
     }
 }
