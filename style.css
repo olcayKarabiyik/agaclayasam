@@ -241,3 +241,30 @@ body {
         font-size: 1.4rem;
     }
 }
+
+/* Instructors */
+.educator-box {
+    background-color: #ffffff;
+    padding: 1.5rem;
+    border-radius: 8px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08);
+    transition: all 0.3s ease;
+}
+
+.educator-box:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.12);
+}
+
+.educator-box .profile-img {
+    width: 80px;
+    height: 80px;
+    object-fit: cover;
+    border-radius: 12px; /* Rounded rectangle */
+    border: 3px solid #007bff;
+}
+
+.educator-box .educator-name {
+    font-weight: 700;
+    color: #333;
+}
