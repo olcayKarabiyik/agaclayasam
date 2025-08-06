@@ -161,6 +161,9 @@ body {
     .site-content .display-5 {
         font-size: 2rem;
     }
+    .site-content p {
+        font-size: 0.9rem;
+    }
     .sidebar .widget {
         padding: 1rem;
     }
