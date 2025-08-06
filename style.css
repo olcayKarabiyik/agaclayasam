@@ -1,7 +1,22 @@
+:root {
+    --primary-color: #007bff;
+    --text-color: #4a4a4a;
+    --text-color-dark: #333;
+    --text-color-light: #6c757d;
+    --background-color: #f8f9fa;
+    --surface-color: #ffffff;
+    --footer-background: #343a40;
+    --border-color: #eee;
+    --shadow-color-primary: rgba(0, 0, 0, 0.08);
+    --shadow-color-hover: rgba(0, 0, 0, 0.12);
+    --text-shadow-color: rgba(0, 0, 0, 0.6);
+    --white: #ffffff;
+}
+
 body {
     font-family: 'Rubik', sans-serif;
-    color: #4a4a4a;
-    background-color: #f8f9fa;
+    color: var(--text-color);
+    background-color: var(--background-color);
 }
 
 /* Header */
@@ -15,7 +30,7 @@ body {
 
 .header-area .nav-link {
     font-weight: 500;
-    color: #333 !important;
+    color: var(--text-color-dark) !important;
     text-transform: uppercase;
     margin-left: 15px;
     margin-right: 15px;
@@ -24,14 +39,14 @@ body {
 
 .header-area .nav-link:hover,
 .header-area .nav-link.active {
-    color: #007bff !important;
+    color: var(--primary-color) !important;
 }
 
 /* Banner */
 .banner-area {
     padding: 120px 0;
-    color: white;
-    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.6);
+    color: var(--white);
+    text-shadow: 2px 2px 4px var(--text-shadow-color);
 }
 
 /* Breadcrumb */
@@ -39,8 +54,8 @@ body {
     padding: 60px 0;
     background-size: cover;
     background-position: center;
-    color: white;
-    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.6);
+    color: var(--white);
+    text-shadow: 2px 2px 4px var(--text-shadow-color);
 }
 
 #breadcrumb-area h2 {
@@ -61,7 +76,7 @@ body {
 }
 
 #breadcrumb-area .breadcrumb-nav li a {
-    color: white;
+    color: var(--white);
     text-decoration: none;
 }
 
@@ -71,24 +86,24 @@ body {
 }
 
 .site-content {
-    background-color: #ffffff;
+    background-color: var(--surface-color);
     padding: 2rem;
-    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08);
+    box-shadow: 0 4px 15px var(--shadow-color-primary);
     border-radius: 8px;
 }
 
 .site-content .display-5 {
     font-family: 'Rubik', sans-serif;
-    color: #333;
+    color: var(--text-color-dark);
     font-weight: 700;
 }
 
 /* Sidebar */
 .sidebar .widget {
-    background-color: #ffffff;
+    background-color: var(--surface-color);
     padding: 1.5rem;
     margin-bottom: 2rem;
-    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08);
+    box-shadow: 0 4px 15px var(--shadow-color-primary);
     border-radius: 8px;
 }
 
@@ -97,20 +112,20 @@ body {
     font-size: 1.5rem;
     font-weight: 700;
     margin-bottom: 1.5rem;
-    color: #333;
-    border-bottom: 2px solid #007bff;
+    color: var(--text-color-dark);
+    border-bottom: 2px solid var(--primary-color);
     padding-bottom: 10px;
 }
 
 .sidebar .list-unstyled li {
     padding: 8px 0;
-    border-bottom: 1px solid #eee;
+    border-bottom: 1px solid var(--border-color);
 }
 
 /* Footer */
 #footer-copyright {
-    background: #343a40;
-    color: white;
+    background: var(--footer-background);
+    color: var(--white);
     padding: 2rem 0;
     font-size: 0.9rem;
 }
@@ -120,7 +135,7 @@ body {
 }
 
 #footer-copyright .scrollup {
-    color: white;
+    color: var(--white);
     font-size: 1.5rem;
     text-decoration: none;
 }
@@ -244,17 +259,17 @@ body {
 
 /* Instructors */
 .educator-box {
-    background-color: #ffffff;
+    background-color: var(--surface-color);
     padding: 1.5rem;
     border-radius: 8px;
-    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08);
+    box-shadow: 0 4px 15px var(--shadow-color-primary);
     transition: all 0.3s ease;
 }
 
 .educator-box:hover {
 
     transform: translateY(-5px);
-    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.12);
+    box-shadow: 0 8px 25px var(--shadow-color-hover);
 }
 
 .educator-box .profile-img {
@@ -262,11 +277,31 @@ body {
     height: 80px;
     object-fit: cover;
     border-radius: 12px; /* Rounded rectangle */
-    border: 3px solid #007bff;
+    border: 3px solid var(--primary-color);
 }
 
 .educator-box .educator-name {
 
     font-weight: 700;
-    color: #333;
+    color: var(--text-color-dark);
+}
+
+/* Kurullar Page */
+.site-content ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+.site-content li {
+    margin-bottom: 1rem;
+}
+
+.member-name {
+    font-size: 1.05rem;
+    font-weight: 500;
+}
+
+.member-affiliation {
+    font-size: 0.9rem;
+    color: var(--text-color-light);
 }
