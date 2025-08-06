@@ -1,5 +1,5 @@
 :root {
-    --primary-color: #007bff;
+    --primary-color: #658A6E;
     --text-color: #4a4a4a;
     --text-color-dark: #333;
     --text-color-light: #6c757d;
@@ -50,52 +50,14 @@ body {
 }
 
 /* Breadcrumb */
-#breadcrumb-area {
-    padding: 60px 0;
-    background-size: cover;
-    background-position: center;
-    color: var(--white);
-    text-shadow: 2px 2px 4px var(--text-shadow-color);
-}
-
-#breadcrumb-area h2 {
-    font-family: 'Dancing Script', cursive;
-    font-size: 3.5rem;
-    font-weight: 700;
-    margin-bottom: 10px;
-}
-
-#breadcrumb-area .breadcrumb-nav {
-    padding: 0;
-    margin: 0;
-}
-
-#breadcrumb-area .breadcrumb-nav li {
-    display: inline;
-    font-size: 1rem;
-}
-
-#breadcrumb-area .breadcrumb-nav li a {
-    color: var(--white);
-    text-decoration: none;
-}
 
 /* Main Content */
-.section-padding {
-    padding: 60px 0;
-}
 
 .site-content {
     background-color: var(--surface-color);
     padding: 2rem;
     box-shadow: 0 4px 15px var(--shadow-color-primary);
     border-radius: 8px;
-}
-
-.site-content .display-5 {
-    font-family: 'Rubik', sans-serif;
-    color: var(--text-color-dark);
-    font-weight: 700;
 }
 
 /* Sidebar */
@@ -146,9 +108,6 @@ body {
         margin-left: 10px;
         margin-right: 10px;
     }
-    .site-content .display-5 {
-        font-size: 2.5rem;
-    }
 }
 
 @media (max-width: 768px) {
@@ -160,15 +119,6 @@ body {
     }
     .banner-area {
         padding: 100px 0;
-    }
-    #breadcrumb-area {
-        padding: 50px 0;
-    }
-    #breadcrumb-area h2 {
-        font-size: 2.8rem;
-    }
-    .section-padding {
-        padding: 50px 0;
     }
     .site-content {
         padding: 1.5rem;
@@ -205,20 +155,8 @@ body {
     .banner-area {
         padding: 80px 0;
     }
-    #breadcrumb-area {
-        padding: 40px 0;
-    }
-    #breadcrumb-area h2 {
-        font-size: 2.2rem;
-    }
     .site-content {
         padding: 1rem;
-    }
-    .site-content .display-5 {
-        font-size: 1.8rem;
-    }
-    .fs-5 {
-        font-size: 1rem !important;
     }
     #footer-copyright {
         text-align: center;
