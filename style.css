@@ -241,3 +241,30 @@ body {
         font-size: 1.4rem;
     }
 }
+
+/* Instructors */
+.educators-grid .educator-box {
+    background-color: #ffffff;
+    padding: 2rem;
+    border-radius: 8px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08);
+    transition: all 0.3s ease;
+    height: 100%;
+}
+
+.educators-grid .educator-box:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.12);
+}
+
+.educators-grid .educator-box img {
+    width: 120px;
+    height: 120px;
+    object-fit: cover;
+    border: 3px solid #007bff;
+}
+
+.educators-grid .educator-box h5 {
+    font-weight: 700;
+    color: #333;
+}
