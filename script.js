@@ -1,21 +1,26 @@
-document.addEventListener('DOMContentLoaded', function() {
-    const navLinks = document.querySelectorAll('.navbar-nav .nav-link');
-    const contentSections = document.querySelectorAll('.content-section');
-
-    navLinks.forEach(link => {
-        link.addEventListener('click', function(e) {
-            e.preventDefault();
-
-            // Deactivate all links and sections
-            navLinks.forEach(navLink => navLink.classList.remove('active'));
-            contentSections.forEach(section => section.classList.remove('active'));
-
-            // Activate the clicked link
-            this.classList.add('active');
-
-            // Activate the corresponding content section
-            const targetId = this.getAttribute('href');
-            document.querySelector(targetId).classList.add('active');
+document.addEventListener("DOMContentLoaded", function() {
+    // Load header
+    fetch("header.html")
+        .then(response => response.text())
+        .then(data => {
+            document.getElementById("header-placeholder").innerHTML = data;
+            // Set active navigation link
+            var currentPage = window.location.pathname.split("/").pop();
+            if (currentPage === '') {
+                currentPage = 'index.html';
+            }
+            const navLinks = document.querySelectorAll(".navbar-nav .nav-link");
+            navLinks.forEach(link => {
+                if (link.getAttribute("href") === currentPage) {
+                    link.classList.add("active");
+                }
+            });
         });
-    });
+
+    // Load footer
+    fetch("footer.html")
+        .then(response => response.text())
+        .then(data => {
+            document.getElementById("footer-placeholder").innerHTML = data;
+        });
 });
