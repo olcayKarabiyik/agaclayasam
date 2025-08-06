@@ -124,3 +124,89 @@ body {
     font-size: 1.5rem;
     text-decoration: none;
 }
+
+/* Responsive Design */
+@media (max-width: 992px) {
+    .header-area .nav-link {
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+    .site-content .display-5 {
+        font-size: 2.5rem;
+    }
+}
+
+@media (max-width: 768px) {
+    body {
+        font-size: 0.95rem;
+    }
+    .header-area .navbar-brand img {
+        height: 60px;
+    }
+    .banner-area {
+        padding: 100px 0;
+    }
+    #breadcrumb-area {
+        padding: 50px 0;
+    }
+    #breadcrumb-area h2 {
+        font-size: 2.8rem;
+    }
+    .section-padding {
+        padding: 50px 0;
+    }
+    .site-content {
+        padding: 1.5rem;
+    }
+    .site-content .display-5 {
+        font-size: 2rem;
+    }
+    .sidebar .widget {
+        padding: 1rem;
+    }
+    .sidebar .widget-title {
+        font-size: 1.3rem;
+    }
+}
+
+@media (max-width: 576px) {
+    body {
+        font-size: 0.9rem;
+    }
+    .header-area .top-bar {
+        font-size: 0.8rem;
+        text-align: center;
+    }
+    .header-area .top-bar .text-md-end {
+        text-align: center !important;
+        margin-top: 5px;
+    }
+    .header-area .navbar-brand img {
+        height: 50px;
+    }
+    .banner-area {
+        padding: 80px 0;
+    }
+    #breadcrumb-area {
+        padding: 40px 0;
+    }
+    #breadcrumb-area h2 {
+        font-size: 2.2rem;
+    }
+    .site-content {
+        padding: 1rem;
+    }
+    .site-content .display-5 {
+        font-size: 1.8rem;
+    }
+    .fs-5 {
+        font-size: 1rem !important;
+    }
+    #footer-copyright {
+        text-align: center;
+    }
+    #footer-copyright .text-lg-right {
+        text-align: center !important;
+        margin-top: 10px;
+    }
+}
