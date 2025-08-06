@@ -52,30 +52,6 @@ birimlerinde nasıl bir yeri olduğunu kapsamaktadır. Çalışma ilk üç gün
 teorik bir eğitimi son iki gün ise 1/1 ölçekte 21 m2'lik bir ahşap modül
 tasarlamayı ve inşa etmeyi içeren bir uygulamayı içermektedir.
 
-Afet sonrası geçici konaklama birimleri, doğal afetlerden sonra bölge
-halkının kalıcı konutlar kurulana kadar geçen süre boyunca ikamet ettiği
-yerlerdir. Doğal afetlerden sonra kullanılan bu geçici barınma
-birimlerinin hem tasarımı ve hem de uygulaması büyük bir önem taşımakta,
-hızlı ve etkili bir şekilde bu birimlerin afetzedelerin kullanımına
-sunulmasına dair stratejiler geliştirilmesi can ve mal kayıplarının
-azaltılmasında hayatidir. Türkiye'nin birçok bölgesi bulunduğu deprem
-kuşağı yüzünden özellikle deprem felaketi ile karşı karşıya kalmaktadır.
-Deprem sonrasında, acil konut ihtiyacının karşılanmasında hızlı ve
-etkili bir çözüm sunan geçici konaklama birimleri bu araştırmanın ana
-odağında yer almaktadır. Bu geçici konaklama birimlerinin üretiminde
-mimarlık eğitiminin rolünü sorgulamak, öğrencilere hem teorik hem de
-pratik düzlemde çevre dostu ve sürdürülebilir bir malzeme olan ahşabı
-kullanarak bu birimleri üretme mantığını kazandırmak bu araştırmanın
-temel amaçları arasındadır. 
-
-Eğitimin içeriği hem teorik hem de uygulamalı düzlemde ahşabın donatı
-elemanından taşıyıcı elemanına kadar kullanıldığı alanları, ahşap yapı
-sistemlerinin özelliklerini, ahşap malzemesinin nasıl korunacağı dair
-ilkeleri, statik açıdan dayanıklılığını ve afet sonrası geçici konut
-birimlerinde nasıl bir yeri olduğunu kapsamaktadır. Çalışma ilk üç gün
-teorik bir eğitimi son iki gün ise 1/1 ölçekte 21 m2'lik bir ahşap modül
-tasarlamayı ve inşa etmeyi içeren bir uygulamayı içermektedir.
-
 **[Kurullar]**
 
 **Düzenleme Kurulu**
