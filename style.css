@@ -156,6 +156,10 @@ main {
     .sidebar .widget-title {
         font-size: 1.3rem;
     }
+    .educator-box .profile-img {
+        width: 100px;
+        height: 100px;
+    }
 }
 
 @media (max-width: 576px) {
@@ -232,11 +236,13 @@ main {
 }
 
 .educator-box .profile-img {
-    width: 80px;
-    height: 80px;
+    width: 120px;
+    height: 120px;
     object-fit: cover;
+    object-position: center;
     border-radius: 12px; /* Rounded rectangle */
     border: 3px solid var(--primary-color);
+    flex-shrink: 0; /* Prevent image from shrinking */
 }
 
 .educator-box .educator-name {
