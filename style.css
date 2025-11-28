@@ -190,6 +190,10 @@ main {
         text-align: center !important;
         margin-top: 10px;
     }
+    .educator-box .profile-img {
+        width: 90px;
+        height: 90px;
+    }
 }
 
 .navbar-toggler {
